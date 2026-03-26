@@ -1,6 +1,6 @@
 # C3 数学库（单文件 · 无依赖 · 轻量高效）
 
-
+![C3 Logo](https://github.com/c3lang/c3c)
 
 [中文](https://github.com/Lang2i/C3math/blob/main/README.md) \| [English](https://github.com/Lang2i/C3math/blob/main/README_E.md)
 
@@ -11,7 +11,7 @@
 > 
 
 ---
-
+![C Logo](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ## ✨ 亮点特性
 
 - **📄 单文件集成**：仅一个 `math\.c3` 文件，无需复杂配置，复制即可导入使用
@@ -25,7 +25,7 @@
 - **⚡ 开箱即用**：导入模块即可调用全部函数，省去重复造轮子，大幅降低开发成本
 
 ---
-
+![Github Logo](https://github.com/Lang2i/C3math)
 ## 📋 函数功能一览表
 
 |函数名|参数类型|功能说明|
