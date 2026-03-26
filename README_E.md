@@ -36,7 +36,7 @@
 |minimum|int\[\], int\*|Find the minimum value in an array and return its position \(index \+ 1\)|
 |oe_num|int|Check whether a number is even|
 |abs|float|Get the absolute value of a float|
-|swap|int\\*, int\\*|Swap the values of two integers|
+|swap|int\*, int\\*Swap the values of two integers|
 |sum|int\[\]|Calculate the sum of all elements in an array|
 |product|int\[\]|Calculate the product of all elements in an array|
 |isPrime|int|Check whether a number is prime|
