@@ -4,51 +4,80 @@
 ![C Logo](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 [中文](https://github.com/Lang2i/C3math/blob/main/README.md) \| [English](https://github.com/Lang2i/C3math/blob/main/README_E.md)
 
-> A lightweight math utility library written in pure C3, with single\-file integration, zero external dependencies, and out\-of\-the\-box usability\.
-> 
-> It includes common functions for basic numerical operations, array processing, number theory algorithms, and is suitable for learning, coursework, and rapid development of small projects\.
-> 
-> 
+atively implemented in C3 with concise parameters\. The full categorized function details are as follows:
 
----
-
-## ✨ Features
-
-- **📄 Single\-File Integration**: Only one `math\.c3` file, no complex configuration — copy and import directly
-
-- **🧩 Zero Dependencies**: Implemented in pure native C3, no third\-party libraries, no extra resource usage
-
-- **🧮 Full Feature Coverage**: Includes basic arithmetic, array utilities, number theory, sequence calculation, value clamping, and other high\-frequency functions
-
-- **🔍 Clean \&amp; Modifiable Code**: Simple logic with full comments, easy for beginners to understand and modify
-
-- **⚡ Out\-of\-the\-Box**: All functions available upon import, avoiding redundant work and greatly reducing development overhead
-
----
-
-## 📋 Function List
+### 1\. Number\-Theoretic Operations
 
 |Function|Parameters|Description|
 |---|---|---|
-|gcd|int, int|Compute the greatest common divisor of two integers|
-|lcm|int, int|Compute the least common multiple of two integers|
-|mai|int, int|Compare two integers \(returns 1 if a \&gt; b, 2 if a \&lt; b, 0 if equal\)|
-|maximum|int\[\], int\*|Find the maximum value in an array and return its position \(index \+ 1\)|
-|minimum|int\[\], int\*|Find the minimum value in an array and return its position \(index \+ 1\)|
-|oe_num|int|Check whether a number is even|
-|abs|float|Get the absolute value of a float|
-|swap|int*, int*|Swap the values of two integers|
-|sum|int\[\]|Calculate the sum of all elements in an array|
-|product|int\[\]|Calculate the product of all elements in an array|
-|isPrime|int|Check whether a number is prime|
-|sort|int\[\]|Quick sort an array in ascending order|
-|reverse|int\[\]|Reverse an array|
-|avg|int\[\]|Calculate the average value of an array|
-|fcl|int|Compute the factorial of n \(n\!\)|
-|fib|int|Get the n‑th term of the Fibonacci sequence|
-|clamp|int,int,int|Restrict a value within a specified range|
+|gcd|int a, int b|Calculates the greatest common divisor of two integers|
+|lcm|int a, int b|Calculates the least common multiple of two integers|
+|isPrime|int n|Checks if an integer is a prime number, returns a boolean value|
+|isEven|int n|Checks if an integer is even, returns a boolean value|
 
----
+### 2\. Basic Numerical Operations
+
+|Function|Parameters|Description|
+|---|---|---|
+|abs|float x|Calculates the absolute value of a float|
+|max|int a, int b|Returns the maximum of two integers|
+|min|int a, int b|Returns the minimum of two integers|
+|swap|int\* a, int\* b|Swaps the values of two integers \(pass by address\)|
+|clamp|int x, int min, int max|Restricts a value within a specified range|
+
+### 3\. Sequence Calculation
+
+|Function|Parameters|Description|
+|---|---|---|
+|fact|int n|Calculates the factorial of an integer|
+|fib|int n|Calculates the nth term of the Fibonacci sequence|
+
+### 4\. Array Utilities
+
+|Function|Parameters|Description|
+|---|---|---|
+|sum|int\[\] arr, int len|Calculates the sum of all elements in an array|
+|avg|int\[\] arr, int len|Calculates the average of array elements|
+|product|int\[\] arr, int len|Calculates the product of all elements in an array|
+|maximum|int\[\] arr, int len|Returns the maximum value in an array|
+|minimum|int\[\] arr, int len|Returns the minimum value in an array|
+|sort|int\[\] arr, int len|Sorts an array in ascending order|
+|reverse|int\[\] arr, int len|Reverses the order of array elements|
+
+## ⚠️ v1\.0 Version Notes
+
+- The current version is a rapid implementation; some algorithms use basic solutions without extreme performance optimization\.
+
+- No complete boundary value checking or exception handling; invalid parameter inputs may cause runtime errors\.
+
+- Module name conflicts with C3\&\#39;s built\-in math library, to be fully resolved in v2\.0\.
+
+- Only supports int\-type arrays and basic numerical operations; generic and floating\-point array support is not available yet\.
+
+## 🚀 Future Plans \(v2\.0\)
+
+- Fix module name conflicts and achieve compatibility with C3\&\#39;s built\-in math library\.
+
+- Optimize algorithm efficiency \(prime checking, sorting, Fibonacci calculation, etc\.\)\.
+
+- Add boundary checking and exception handling to improve library robustness\.
+
+- Support floating\-point values and generic arrays\.
+
+- Add more commonly\-used mathematical and array functions\.
+
+- Improve code comments, standardize naming and coding style\.
+
+- Add complete test cases\.
+
+## 📄 Open\-Source License
+
+This project is licensed under the **MIT License**\. It is free to use, modify, distribute, and commercially utilize, provided that the original author\&\#39;s copyright information is retained\.
+
+## 💬 Additional Notes
+
+The ecosystem of the C3 language is still immature at this stage\. This project aims to fill the basic utility gap and assist entry\-level developers in learning and developing with C3\. Suggestions from developers are warmly welcomed, and the project will be continuously improved to build the C3 language ecosystem together\.
+
 
 ## 🚀 Quick Start
 
@@ -383,4 +412,3 @@ You may freely use, modify, distribute, and use it commercially without notifyin
 > 
 > 
 
-> （注：文档部分内容可能由 AI 生成）
