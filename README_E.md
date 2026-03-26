@@ -34,7 +34,7 @@
 |mai|int, int|Compare two integers \(returns 1 if a \&gt; b, 2 if a \&lt; b, 0 if equal\)|
 |maximum|int\[\], int\*|Find the maximum value in an array and return its position \(index \+ 1\)|
 |minimum|int\[\], int\*|Find the minimum value in an array and return its position \(index \+ 1\)|
-|oe\_num|int|Check whether a number is even|
+|oe_num|int|Check whether a number is even|
 |abs|float|Get the absolute value of a float|
 |swap|int\\*, int\\*|Swap the values of two integers|
 |sum|int\[\]|Calculate the sum of all elements in an array|
