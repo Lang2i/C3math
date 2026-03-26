@@ -1,6 +1,7 @@
 
 # C3 Math Library \(Single\-File · No Dependencies · Lightweight \&amp; Efficient\)
 
+![C Logo](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 [中文](https://github.com/Lang2i/C3math/blob/main/README.md) \| [English](https://github.com/Lang2i/C3math/blob/main/README_E.md)
 
 > A lightweight math utility library written in pure C3, with single\-file integration, zero external dependencies, and out\-of\-the\-box usability\.
