@@ -66,9 +66,6 @@ atively implemented in C3 with concise parameters\. The full categorized functio
 
 - Add more commonly\-used mathematical and array functions\.
 
-- Improve code comments, standardize naming and coding style\.
-
-- Add complete test cases\.
 
 ## 📄 Open\-Source License
 
