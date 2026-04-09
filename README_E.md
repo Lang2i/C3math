@@ -3,7 +3,7 @@
 
 **A lightweight, single-file math utility library for the C3 programming language | Zero dependencies, ready to use, generic support**
 ![C Logo](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-[中文文档](https://github.com/Lang2i/C3math/edit/main/README.md)) | [English](https://github.com/Lang2i/C3math/blob/main/README_E.md)
+[中文文档](https://github.com/Lang2i/C3math/edit/main/README.md) | [English](https://github.com/Lang2i/C3math/blob/main/README_E.md)
 
 ---
 
