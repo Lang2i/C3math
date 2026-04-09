@@ -105,7 +105,7 @@ import math;
 
 ### 1\. gcd \(Greatest Common Divisor\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -119,7 +119,7 @@ fn int main(String[] args)
 
 ### 2\. lcm \(Least Common Multiple\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -133,7 +133,7 @@ fn int main(String[] args)
 
 ### 3\. mai \(Value Comparison\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -148,7 +148,7 @@ fn int main(String[] args)
 
 ### 4\. maximum \(Find Array Maximum\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -166,7 +166,7 @@ fn int main(String[] args)
 
 ### 5\. minimum \(Find Array Minimum\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -184,7 +184,7 @@ fn int main(String[] args)
 
 ### 6\. oe\_num \(Even Check\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -199,7 +199,7 @@ fn int main(String[] args)
 
 ### 7\. abs \(Absolute Value\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -215,7 +215,7 @@ fn int main(String[] args)
 
 ### 8\. swap \(Value Swap\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -232,7 +232,7 @@ fn int main(String[] args)
 
 ### 9\. sum \(Array Sum\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -248,7 +248,7 @@ fn int main(String[] args)
 
 ### 10\. product \(Array Product\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -264,7 +264,7 @@ fn int main(String[] args)
 
 ### 11\. isPrime \(Prime Check\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -280,7 +280,7 @@ fn int main(String[] args)
 
 ### 12\. sort \(Array Sort\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -299,7 +299,7 @@ fn int main(String[] args)
 
 ### 13\. reverse \(Array Reverse\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -318,7 +318,7 @@ fn int main(String[] args)
 
 ### 14\. avg \(Array Average\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -334,7 +334,7 @@ fn int main(String[] args)
 
 ### 15\. fcl \(Factorial\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -349,7 +349,7 @@ fn int main(String[] args)
 
 ### 16\. fib \(Fibonacci Sequence\)
 
-```c
+```c3
 import std::io;
 import math;
 
@@ -366,7 +366,7 @@ fn int main(String[] args)
 
 ### 17\. clamp \(Value Range Restriction\)
 
-```c
+```c3
 import std::io;
 import math;
 
