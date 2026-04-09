@@ -1,6 +1,7 @@
 # C3math
 
 **C3 语言轻量化单文件数学工具库 | 零依赖、开箱即用、泛型支持**
+![C Logo](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 [中文文档](https://github.com/Lang2i/C3math/edit/main/README.md) | [English](https://github.com/Lang2i/C3math/blob/main/README_E.md)
 
